@@ -1,0 +1,18 @@
+package Baekjoon3;
+
+import java.util.Scanner;
+
+public class stage9 {
+	public static void main(String[] args) {
+		//º° Âï±â -1
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		
+			for(int i=1; i<=T; i++) {
+				for(int j=1; j<=i; j++) {
+					System.out.print("*");
+			}	
+				System.out.println("");
+		}	
+	}
+}
